@@ -7,6 +7,9 @@
   text-decoration: none;
 }
 
+body{
+    background-color: azure;
+}
 .container {
     width: 45rem;
     height: 45rem;
