@@ -25,6 +25,11 @@ function submitForm() {
     // Membuka Gmail di tab atau jendela baru
     window.open(gmailUrl, '_blank');
 
+    // Membuat URL untuk membuka program email default
+    // const mailtoUrl = 'mailto:' + encodeURIComponent(emailAddress) +
+    //                 '?subject=' + encodeURIComponent(emailSubject) +
+    //                 '&body=' + encodeURIComponent(emailBody);
+
     // Membuka program email default dengan nilai yang diisi
     // window.location.href = mailtoUrl;
 }
