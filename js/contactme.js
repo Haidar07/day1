@@ -17,6 +17,19 @@ function submitForm() {
                       'My Phone: ' + phoneNumber + '\n' + '\n' + '\n' +
                       'Message:\n' + message;
 
+    // Agar tidak ada kolom yang tak terisi
+    if (name == ''){
+        return alert('name harus diisi bro')
+    } else if (email == '') {
+        return alert('emailnya jangan kosong dong')
+    } else if (phoneNumber) {
+        return alert ('Nomor hp nya bang')
+    } else if (subject) {
+        return alert ('subjectnya kosong tuh')
+    } else if (message) {
+        return alert('pesannya apa ? kosong tuh bang')
+    }
+
     // Membuat URL Gmail khusus dengan parameter
     const gmailUrl = 'https://mail.google.com/mail/u/0/?view=cm&fs=1&to=' + encodeURIComponent(emailAddress) +
                     '&su=' + encodeURIComponent(emailSubject) +
