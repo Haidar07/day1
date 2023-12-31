@@ -22,11 +22,11 @@ function submitForm() {
         return alert('name harus diisi bro')
     } else if (email == '') {
         return alert('emailnya jangan kosong dong')
-    } else if (phoneNumber) {
+    } else if (phoneNumber == '') {
         return alert ('Nomor hp nya bang')
-    } else if (subject) {
+    } else if (subject == '') {
         return alert ('subjectnya kosong tuh')
-    } else if (message) {
+    } else if (message == '') {
         return alert('pesannya apa ? kosong tuh bang')
     }
 
