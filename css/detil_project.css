@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e3e7eb;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  background-color: #f4f3f3;
+  padding: 10px 4rem;
+}
+
+.navbar .bagian-kiri-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navbar .bagian-kiri-nav .text1-nav {
+  font-weight: 700;
+  color: #101010;
+  font-size: 1.35rem;
+}
+
+.navbar .bagian-kiri-nav .text2-nav {
+  font-weight: 400;
+  color: #101010;
+  font-size: 1.15rem;
+}
+
+.navbar .bagian-kiri-nav img {
+  width: 4rem;
+}
+
+.navbar .bagian-kanan-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .bagian-kanan-nav a {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: aquamarine;
+  background-color: #101010;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+/* Detil Project Section */
+#detil {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#judul {
+    text-align: center;
+    margin-top: 5rem;
+    color: #101010;
+    font-size: 42px;
+}
+
+.ket {
+    display: flex;
+    padding: 2rem 8rem;
+    gap: 1rem;
+}
+
+.ket .imgproject {
+    width: 55rem;
+}
+
+.ket .imgproject img {
+    width: 100%;
+}
+
+.ket .kettam .duration {
+    margin-bottom: 4rem;
+}
+
+.ket .kettam .duration .lama {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 17px;
+}
+
+.ket .kettam .tech {
+    width: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.ket .kettam .tech .logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 17px;
+}
+
+#satu {
+    margin-left: 15px;
+}
+
+/* article */
+#detil .article {
+    padding: 1.5rem 8rem;
+    text-align: justify;
+}
