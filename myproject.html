@@ -10,19 +10,27 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar">
-      <div class="bagian-kiri-nav">
-        <img src="aset/logo-navbar.png" alt="Logo" />
-        <a href="index.html" class="text1-nav">Home</a>
-        <a href="#" class="text2-nav">My Project</a>
+      <div class="navvbar">
+        <div class="bagian-kiri-nav">
+          <img src="aset/logo-navbar.png" alt="Logo" />
+          <a href="#" class="text1-nav">Home</a>
+          <a href="myproject.html" target="_blank" class="text2-nav">My Project</a>
+        </div>
+        <div class="bagian-kanan-nav">
+          <a href="contact_page.html" class="tombol" target="_blank">Contact</a>
+          <a href="javascript:void(0);" id="hamburger-menu" onclick="burger()"><i class="fa-solid fa-bars"></i></a>
+        </div>
       </div>
-      <div class="bagian-kanan-nav">
-        <a href="contact_page.html" class="tombol" target="_blank">Contact</a>
+      <div id="hamburger-menu-list">
+        <a href="index.html" class="ini">HOME</a>
+        <a href="myproject.html" class="ini">MyProject</a>
+        <a href="contact_page.html" class="ini">ContactMe</a>
       </div>
     </nav>
 
     <!-- Form isian -->
     <form onsubmit="addBlog(event)">
-      <h2 style="font-weight: 700; margin-bottom: 2rem; text-align: center">
+      <h2 id="jform">
         ADD MY PROJECT
       </h2>
       <div class="nameProjectField">
