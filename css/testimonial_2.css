@@ -111,6 +111,7 @@ body {
   font-size: larger;
 }
 
+/* Container */
 #main_container {
     width: 100%;
     min-height: 100vh;
@@ -119,13 +120,31 @@ body {
 #main_container h2 {
     text-align: center;
     padding-top: 7rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
+#main_container .rating-star {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+#main_container .rating-star .brs {
+  background-color: #600303;
+  width: 42px;
+  height: 42px;
+  border: 1px solid black;
+  border-radius: 25%;
+  color: rgb(217, 255, 0);
+  cursor: pointer;
+}
+
+/* Card Testimonials */
 #main_container .container_card {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
+    padding: 0 4rem 3rem;
 }
 
 #main_container .container_card .card_testimonial {
