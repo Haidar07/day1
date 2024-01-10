@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testi OOP</title>
-    <link rel="stylesheet" href="css/testimonial_1.css">
+    <title>Testi HoF</title>
+    <link rel="stylesheet" href="css/testimonial_2.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -21,7 +21,7 @@
           <img src="aset/logo-navbar.png" alt="Logo" />
           <a href="testimonial_oop.html" target="_blank" onclick="console.log('Tombol Contact Diklik')" class="text1-nav">Testimonial OOP</a>
           <a href="testimonial_HoF.html" target="_blank" class="text2-nav">Testimonial HoF</a>
-          <a href="testimonial_JSON.html" target="_blank" class="text2-nav">Testimonial JSON</a>
+          <a href="#" class="text2-nav">Testimonial JSON</a>
         </div>
         <div class="bagian-kanan-nav">
           <a href="contact_page.html" class="tombol" target="_blank">Contact</a>
@@ -37,7 +37,27 @@
 
     <!-- Testimonial Section With OOP Concept -->
     <section id="main_container">
-        <h2>My Testimonial (With OOP Concept)</h2>
+        <h2>My Testimonial (With JSON Concept)</h2>
+        <div class="rating-star">
+          <button class="brs" onclick="allStar()">
+            ALL
+          </button>
+          <button class="brs" onclick="filteredTestimonials(1)">
+            1<i class="fa-solid fa-star"></i>
+          </button>
+          <button class="brs" onclick="filteredTestimonials(2)">
+            2<i class="fa-solid fa-star"></i>
+          </button>
+          <button class="brs" onclick="filteredTestimonials(3)">
+            3<i class="fa-solid fa-star"></i>
+          </button>
+          <button class="brs" onclick="filteredTestimonials(4)">
+            4<i class="fa-solid fa-star"></i>
+          </button>
+          <button class="brs" onclick="filteredTestimonials(5)">
+            5<i class="fa-solid fa-star"></i>
+          </button>
+        </div>
         <div id="mantap" class="container_card">
             <!-- <div class="card_testimonial">
                 <img src="aset/blog-2.jpg">
@@ -52,7 +72,7 @@
 
 
     <script src="js/nav.js"></script>
-    <script src="js/testimonialOOP.js"></script>
+    <script src="js/testimonialJSON.js"></script>
     
 </body>
 </html>
